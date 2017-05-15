@@ -1,0 +1,16 @@
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Migrations\bin\Debug\PRISSafari.Migrations.dll.config
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Migrations\bin\Debug\PRISSafari.Migrations.dll
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Migrations\bin\Debug\PRISSafari.Migrations.pdb
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Migrations\bin\Debug\EntityFramework.dll
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Migrations\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Migrations\bin\Debug\PRISSafari.Domain.dll
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Migrations\bin\Debug\PRISSafari.Repositories.dll
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Migrations\bin\Debug\PRISSafari.Domain.pdb
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Migrations\bin\Debug\PRISSafari.Repositories.pdb
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Migrations\bin\Debug\EntityFramework.xml
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Migrations\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Migrations\obj\Debug\PRISSafari.Migrations.csprojResolveAssemblyReference.cache
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Migrations\obj\Debug\PRISSafari.Migrations.dll
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Migrations\obj\Debug\PRISSafari.Migrations.pdb
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Migrations\obj\Debug\PRISSafari.Repositories.Migrations.InitialCreate.resources
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Migrations\obj\Debug\PRISSafari.Migrations.csproj.GenerateResource.Cache

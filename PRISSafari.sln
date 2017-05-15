@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRISSafari", "PRISSafari\PRISSafari.csproj", "{BFCF89D6-B32B-40E4-B425-96F2E40AD44F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{7EA5E145-09C9-4E2A-9117-53F1DB7E4DC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E30A404F-E4E6-4DF2-A7A4-056833F19DF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Init", "Init", "{128D8E07-D0B5-4CC9-B912-44D16E159F81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{C2048CDA-7CD2-4604-9F6E-B6E7060F9001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRISSafari.Domain", "PRISSafari.Domain\PRISSafari.Domain.csproj", "{7592A0E3-83FB-440E-B14B-FC27A0534303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRISSafari.Migrations", "PRISSafari.Migrations\PRISSafari.Migrations.csproj", "{45B44124-2325-4131-89D1-8D4B6E472237}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRISSafari.Repositories", "PRISSafari.Repositories\PRISSafari.Repositories.csproj", "{452C96DD-CFF6-4AC5-9112-D7CD9E15D9A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRISSafari.Init", "PRISSafari.Init\PRISSafari.Init.csproj", "{B8243416-975C-499A-9552-ED9C55A01E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRISSafari.Service", "PRISSafari.Service\PRISSafari.Service.csproj", "{86AE38D8-7DC2-44C9-ADB6-612AC7DE7956}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFCF89D6-B32B-40E4-B425-96F2E40AD44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFCF89D6-B32B-40E4-B425-96F2E40AD44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFCF89D6-B32B-40E4-B425-96F2E40AD44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFCF89D6-B32B-40E4-B425-96F2E40AD44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7592A0E3-83FB-440E-B14B-FC27A0534303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7592A0E3-83FB-440E-B14B-FC27A0534303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7592A0E3-83FB-440E-B14B-FC27A0534303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7592A0E3-83FB-440E-B14B-FC27A0534303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B44124-2325-4131-89D1-8D4B6E472237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B44124-2325-4131-89D1-8D4B6E472237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B44124-2325-4131-89D1-8D4B6E472237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B44124-2325-4131-89D1-8D4B6E472237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{452C96DD-CFF6-4AC5-9112-D7CD9E15D9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{452C96DD-CFF6-4AC5-9112-D7CD9E15D9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{452C96DD-CFF6-4AC5-9112-D7CD9E15D9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{452C96DD-CFF6-4AC5-9112-D7CD9E15D9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8243416-975C-499A-9552-ED9C55A01E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8243416-975C-499A-9552-ED9C55A01E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8243416-975C-499A-9552-ED9C55A01E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8243416-975C-499A-9552-ED9C55A01E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86AE38D8-7DC2-44C9-ADB6-612AC7DE7956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86AE38D8-7DC2-44C9-ADB6-612AC7DE7956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86AE38D8-7DC2-44C9-ADB6-612AC7DE7956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86AE38D8-7DC2-44C9-ADB6-612AC7DE7956}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7592A0E3-83FB-440E-B14B-FC27A0534303} = {7EA5E145-09C9-4E2A-9117-53F1DB7E4DC9}
+		{45B44124-2325-4131-89D1-8D4B6E472237} = {E30A404F-E4E6-4DF2-A7A4-056833F19DF1}
+		{452C96DD-CFF6-4AC5-9112-D7CD9E15D9A1} = {E30A404F-E4E6-4DF2-A7A4-056833F19DF1}
+		{B8243416-975C-499A-9552-ED9C55A01E54} = {128D8E07-D0B5-4CC9-B912-44D16E159F81}
+		{86AE38D8-7DC2-44C9-ADB6-612AC7DE7956} = {C2048CDA-7CD2-4604-9F6E-B6E7060F9001}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

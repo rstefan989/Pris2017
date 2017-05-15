@@ -1,0 +1,12 @@
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Repositories\bin\Debug\PRISSafari.Repositories.dll.config
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Repositories\bin\Debug\PRISSafari.Repositories.dll
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Repositories\bin\Debug\PRISSafari.Repositories.pdb
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Repositories\bin\Debug\EntityFramework.dll
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Repositories\bin\Debug\PRISSafari.Domain.dll
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Repositories\bin\Debug\PRISSafari.Domain.pdb
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Repositories\bin\Debug\EntityFramework.xml
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Repositories\obj\Debug\PRISSafari.Repositories.csprojResolveAssemblyReference.cache
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Repositories\obj\Debug\PRISSafari.Repositories.dll
+D:\Projects\PRISSafari\PRISSafari\PRISSafari.Repositories\obj\Debug\PRISSafari.Repositories.pdb
