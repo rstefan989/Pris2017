@@ -56,12 +56,17 @@
   <ItemGroup>
     <Compile Include="Entities\Auction.cs" />
     <Compile Include="Entities\AuctionItem.cs" />
+    <Compile Include="Entities\Comment.cs" />
     <Compile Include="Entities\Entity.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Interfaces\Common\IRepository.cs" />
     <Compile Include="Interfaces\Common\IService.cs" />
     <Compile Include="Interfaces\Common\IUnitOfWork.cs" />
+    <Compile Include="Interfaces\IRepositories\IAuctionItemRepository.cs" />
+    <Compile Include="Interfaces\IRepositories\IAuctionRepository.cs" />
     <Compile Include="Interfaces\IRepositories\IUserRepository.cs" />
+    <Compile Include="Interfaces\IServices\IAuctionItemService.cs" />
+    <Compile Include="Interfaces\IServices\IAuctionService.cs" />
     <Compile Include="Interfaces\IServices\IUserService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
