@@ -10,6 +10,8 @@ namespace PRISSafari.Repositories.Configurators
             Property(p => p.FirstName).HasMaxLength(60);
             Property(p => p.LastName).HasMaxLength(60);
             Property(p => p.Email).HasMaxLength(200);
+            HasMany<AuctionItem>(p => p.AuctionItems).WithRequired(p => p.User).WillCascadeOnDelete(false);
+            HasMany<Auction>(p => p.Auctions).WithRequired(p => p.User).WillCascadeOnDelete(false);
         }
     }
 }

@@ -49,6 +49,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configurators\AuctionConfiguration.cs" />
+    <Compile Include="Configurators\AuctionItemConfiguration.cs" />
     <Compile Include="Configurators\UserConfiguration.cs" />
     <Compile Include="DataContext.cs" />
     <Compile Include="Migrations\Configuration.cs" />

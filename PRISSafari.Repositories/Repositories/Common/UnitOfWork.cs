@@ -8,6 +8,8 @@ namespace PRISSafari.Repositories.Repositories.Common
         private DataContext _dbContext;
 
         IUserRepository _userRepository;
+        IAuctionItemRepository _auctionItemRepository;
+        IAuctionRepository _auctionRepository;
 
         public IUserRepository UserRepository
         {
@@ -15,6 +17,24 @@ namespace PRISSafari.Repositories.Repositories.Common
             {
                 _userRepository = _userRepository ?? new UserRepository(_dbContext);
                 return _userRepository;
+            }
+        }
+
+        public IAuctionItemRepository AuctionItemRepository
+        {
+            get
+            {
+                _auctionItemRepository = _auctionItemRepository ?? new AuctionItemRepository(_dbContext);
+                return _auctionItemRepository;
+            }
+        }
+
+        public IAuctionRepository AuctionRepository
+        {
+            get
+            {
+                _auctionRepository = _auctionRepository ?? new AuctionRepository(_dbContext);
+                return _auctionRepository;
             }
         }
 

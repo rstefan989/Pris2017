@@ -9,3 +9,14 @@ D:\Projects\PRISSafari\PRISSafari\PRISSafari.Domain\bin\Debug\EntityFramework.Sq
 D:\Projects\PRISSafari\PRISSafari\PRISSafari.Domain\obj\Debug\PRISSafari.Domain.csprojResolveAssemblyReference.cache
 D:\Projects\PRISSafari\PRISSafari\PRISSafari.Domain\obj\Debug\PRISSafari.Domain.dll
 D:\Projects\PRISSafari\PRISSafari\PRISSafari.Domain\obj\Debug\PRISSafari.Domain.pdb
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\bin\Debug\PRISSafari.Domain.dll.config
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\bin\Debug\PRISSafari.Domain.dll
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\bin\Debug\PRISSafari.Domain.pdb
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\bin\Debug\EntityFramework.dll
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\bin\Debug\System.DirectoryServices.dll
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\bin\Debug\EntityFramework.xml
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\obj\Debug\PRISSafari.Domain.csprojResolveAssemblyReference.cache
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\obj\Debug\PRISSafari.Domain.dll
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\obj\Debug\PRISSafari.Domain.pdb

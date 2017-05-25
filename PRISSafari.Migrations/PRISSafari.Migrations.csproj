@@ -53,6 +53,14 @@
     <Compile Include="Migrations\201705151346220_InitialCreate.Designer.cs">
       <DependentUpon>201705151346220_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705251503192_AddAuctionItemTable.cs" />
+    <Compile Include="Migrations\201705251503192_AddAuctionItemTable.Designer.cs">
+      <DependentUpon>201705251503192_AddAuctionItemTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705251517370_AddAuctionTable.cs" />
+    <Compile Include="Migrations\201705251517370_AddAuctionTable.Designer.cs">
+      <DependentUpon>201705251517370_AddAuctionTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -73,6 +81,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201705151346220_InitialCreate.resx">
       <DependentUpon>201705151346220_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705251503192_AddAuctionItemTable.resx">
+      <DependentUpon>201705251503192_AddAuctionItemTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705251517370_AddAuctionTable.resx">
+      <DependentUpon>201705251517370_AddAuctionTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

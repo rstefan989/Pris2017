@@ -10,3 +10,15 @@ D:\Projects\PRISSafari\PRISSafari\PRISSafari.Repositories\bin\Debug\EntityFramew
 D:\Projects\PRISSafari\PRISSafari\PRISSafari.Repositories\obj\Debug\PRISSafari.Repositories.csprojResolveAssemblyReference.cache
 D:\Projects\PRISSafari\PRISSafari\PRISSafari.Repositories\obj\Debug\PRISSafari.Repositories.dll
 D:\Projects\PRISSafari\PRISSafari\PRISSafari.Repositories\obj\Debug\PRISSafari.Repositories.pdb
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Repositories\bin\Debug\PRISSafari.Repositories.dll.config
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Repositories\bin\Debug\PRISSafari.Repositories.dll
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Repositories\bin\Debug\PRISSafari.Repositories.pdb
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Repositories\bin\Debug\EntityFramework.dll
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Repositories\bin\Debug\PRISSafari.Domain.dll
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Repositories\bin\Debug\PRISSafari.Domain.pdb
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Repositories\bin\Debug\EntityFramework.xml
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Repositories\obj\Debug\PRISSafari.Repositories.csprojResolveAssemblyReference.cache
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Repositories\obj\Debug\PRISSafari.Repositories.dll
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Repositories\obj\Debug\PRISSafari.Repositories.pdb
