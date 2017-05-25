@@ -10,6 +10,7 @@ namespace PRISSafari.Repositories.Repositories.Common
         IUserRepository _userRepository;
         IAuctionItemRepository _auctionItemRepository;
         IAuctionRepository _auctionRepository;
+        ICommentRepository _commentRepository;
 
         public IUserRepository UserRepository
         {
@@ -35,6 +36,15 @@ namespace PRISSafari.Repositories.Repositories.Common
             {
                 _auctionRepository = _auctionRepository ?? new AuctionRepository(_dbContext);
                 return _auctionRepository;
+            }
+        }
+
+        public ICommentRepository CommentRepository
+        {
+            get
+            {
+                _commentRepository = _commentRepository ?? new CommentRepository(_dbContext);
+                return _commentRepository;
             }
         }
 
