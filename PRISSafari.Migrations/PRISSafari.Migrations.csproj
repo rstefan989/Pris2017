@@ -65,6 +65,10 @@
     <Compile Include="Migrations\201705251555336_AddCommentTable.Designer.cs">
       <DependentUpon>201705251555336_AddCommentTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705251618313_AddAuctionItemCategoryTable.cs" />
+    <Compile Include="Migrations\201705251618313_AddAuctionItemCategoryTable.Designer.cs">
+      <DependentUpon>201705251618313_AddAuctionItemCategoryTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -94,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705251555336_AddCommentTable.resx">
       <DependentUpon>201705251555336_AddCommentTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705251618313_AddAuctionItemCategoryTable.resx">
+      <DependentUpon>201705251618313_AddAuctionItemCategoryTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

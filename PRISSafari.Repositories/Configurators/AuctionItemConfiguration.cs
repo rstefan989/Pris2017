@@ -8,6 +8,7 @@ namespace PRISSafari.Repositories.Configurators
         public AuctionItemConfiguration()
         {
             Property(p => p.UserId).IsRequired();
+            Property(p => p.AuctionItemCategoryId).IsRequired();
 
             Property(p => p.Name).HasMaxLength(60).IsRequired();
             Property(p => p.Description).HasMaxLength(200);

@@ -33,3 +33,4 @@ C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafar
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Repositories.Migrations.AddAuctionItemTable.resources
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Repositories.Migrations.AddAuctionTable.resources
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Repositories.Migrations.AddCommentTable.resources
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Repositories.Migrations.AddAuctionItemCategoryTable.resources
