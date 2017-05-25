@@ -17,6 +17,5 @@ C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\bin\Debug\EntityFramewo
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\bin\Debug\System.DirectoryServices.dll
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\bin\Debug\EntityFramework.xml
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\obj\Debug\PRISSafari.Domain.csprojResolveAssemblyReference.cache
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\obj\Debug\PRISSafari.Domain.dll
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Domain\obj\Debug\PRISSafari.Domain.pdb

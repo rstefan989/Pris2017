@@ -3,6 +3,7 @@
     public class Comment : Entity
     {
         public string Description { get; set; }
+        public int UserRating { get; set; } //Prodavac i kupac mogu da ocenjuju jedan drugog po zavrsenoj primopredaji 
         public int UserId { get; set; }
         public int CreatedByUserId { get; set; }
 

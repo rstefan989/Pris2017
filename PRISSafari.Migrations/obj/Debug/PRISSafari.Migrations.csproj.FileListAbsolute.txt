@@ -27,10 +27,11 @@ C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\bin\Debug\EntityFra
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Migrations.csprojResolveAssemblyReference.cache
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Repositories.Migrations.InitialCreate.resources
-C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Migrations.csproj.GenerateResource.Cache
-C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Migrations.dll
-C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Migrations.pdb
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Repositories.Migrations.AddAuctionItemTable.resources
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Repositories.Migrations.AddAuctionTable.resources
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Repositories.Migrations.AddCommentTable.resources
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Repositories.Migrations.AddAuctionItemCategoryTable.resources
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Repositories.Migrations.UpdateTables.resources
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Migrations.csproj.GenerateResource.Cache
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Migrations.dll
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari.Migrations\obj\Debug\PRISSafari.Migrations.pdb

@@ -11,6 +11,7 @@ namespace PRISSafari.Repositories.Configurators
             Property(p => p.CreatedByUserId).IsRequired();
 
             Property(p => p.Description).HasMaxLength(200).IsRequired();
+            Property(p => p.UserRating).IsRequired();
         }
     }
 }

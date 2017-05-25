@@ -97,6 +97,7 @@ C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\PRISSafari.dll.config
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\PRISSafari.dll
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\PRISSafari.pdb
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\Antlr3.Runtime.dll
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\AutoMapper.dll
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\EntityFramework.dll
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\EntityFramework.SqlServer.dll
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\Microsoft.AI.Agent.Intercept.dll
@@ -122,6 +123,7 @@ C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\Microsoft.Owin.Security.Tw
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\Newtonsoft.Json.dll
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\Owin.dll
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\PRISSafari.Domain.dll
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\System.Web.Helpers.dll
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\System.Web.Mvc.dll
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\System.Web.Optimization.dll
@@ -130,6 +132,8 @@ C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\System.Web.WebPages.Deploy
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\System.Web.WebPages.dll
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\System.Web.WebPages.Razor.dll
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\WebGrease.dll
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\PRISSafari.Domain.pdb
+C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\AutoMapper.xml
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\Microsoft.AI.DependencyCollector.xml
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\tamaran\Source\Repos\Pris2017\PRISSafari\bin\Microsoft.AI.Web.xml
