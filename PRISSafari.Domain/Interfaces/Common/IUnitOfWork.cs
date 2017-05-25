@@ -8,6 +8,7 @@ namespace PRISSafari.Domain.Interfaces.Common
         IAuctionItemRepository AuctionItemRepository { get; }
         IAuctionRepository AuctionRepository { get; }
         ICommentRepository CommentRepository { get; }
+        IAuctionItemCategoryRepository AuctionItemCategoryRepository { get; }
 
         void SaveChanges();
     }
