@@ -1,0 +1,46 @@
+﻿@model IRS.Web.ViewModels.Common.ViewModelBase
+@using YuSpin.Fw.Web
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+    <title>SAFARI - @ViewBag.Title</title>
+    <link href="~/Content/FontAwesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+</head>
+<body>
+    @Html.Partial("_HeaderPartial", Model)
+    <div class="container body-content layout-container">
+        @RenderBody()
+        <hr />
+        <footer>
+            <div class="row">
+                <div class="col-md-6"><p>&copy; @DateTime.Now.Year - SAFARI v @ViewContext.Controller.GetType().Assembly.GetName().Version</p></div>
+                <div class="col-md-6">
+                    <div class="pull-right"><p>@String.Format("{0:dd-MM-yyyy HH:mm}", File.GetLastWriteTime(ViewContext.Controller.GetType().Assembly.Location))</p></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/knockout")
+    @RenderSection("scripts", required: false)
+    <script type="text/javascript">
+
+        @if (Model != null)
+        {
+            var data = JsonHelper.Convert(Model.Notifications);
+
+           @Html.Raw($"app.notifications.show('{data}');");
+        }
+        @Html.Raw($"app.init('Error occured!');");
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+﻿@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOut", "Account", new { area = "" }, FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+    @Html.AntiForgeryToken()
+
+    <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <span class="fa fa-lg fa-user"></span> @AuthUser.AuthenticatedUser.FullName <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li>@Html.ActionLink(Labels.EditAccount, "Edit", "User", new { area = "" }, null)</li>
+                <li>@Html.ActionLink(Labels.ChangePassword, "ChangePassword", "User", new { area = "" }, null)</li>
+            </ul>
+        </li>
+        <li><a class="text-warning" href="javascript:document.getElementById('logoutForm').submit()"><span class="fa fa-lg fa-sign-out"></span> @Labels.LogOff</a></li>
+    </ul>
+    }
+}

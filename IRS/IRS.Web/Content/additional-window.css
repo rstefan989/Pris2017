@@ -1,0 +1,26 @@
+﻿body {
+}
+
+.layout-container{
+    max-width: 100%;
+    padding: 0px;
+}
+
+.layout-container .container-main{
+    max-width: 100%;
+    padding: 0px;
+}
+
+/* map page */
+#map_canvas{
+    height:100vh;
+}
+
+/* image full view page */
+.img-container{
+    height:100vh;
+}
+
+#imageFullView{
+    max-height: 100%;
+}

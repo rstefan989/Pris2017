@@ -1,0 +1,237 @@
+﻿body, h1, h2, h3, h4, h5, h6 
+{
+    font-family: Verdana,sans-serif;
+    color:#666;
+    font-weight: lighter;
+}
+
+.layout-container{
+    max-width:90%;
+}
+
+.navbar .container{
+    max-width:90%;
+}
+
+.navbar-toggle .icon-bar {
+    background: #888;
+}
+
+.page-title
+{
+    padding:0;
+    font-size:24px;
+    letter-spacing:-1px;
+    display:block;
+    color:#666;
+    margin:0 0 15px;
+    font-weight: lighter;
+}
+.page-title small
+{
+    font-size:14px;
+    letter-spacing:0;
+    font-weight:300;
+    color:#888
+}
+
+.validation-summary-valid { display: none;}
+.validation-summary-errors {background: url("images/icon-validation-error.png") no-repeat 7px 7px #F2BFBB;min-height: 65px;}
+.validation-summary-errors>ul, .validation-summary-errors>h4{ margin: -7px 0px 0px 60px;color: brown;} 
+.validation-summary-valid { display: none; }
+.alert-info { background: url("images/icon-validation-info.png") no-repeat 7px 7px #D9EDF7; }
+
+.table th, .table td{
+    text-align:center !important;
+}
+
+.pl15 {
+    padding-left: 15px;
+}
+
+#logoutForm .text-warning {
+    color: #c09853;
+}
+
+.navbar {
+    border-radius:0px;
+}
+
+.navbar-background {
+    background-color:white;
+    border-bottom-color:lightgrey;
+}
+
+/* demo datatables example*/
+.datatables-header-row {
+        padding-bottom:8px
+    }
+
+.datatables-footer-row {
+        padding-top:8px
+    }
+
+div.datatables-group .datatables-group-item {
+        margin-bottom: 5px;
+        min-width: 125px;
+        height: 35px;
+    }
+
+.table-btn{
+    padding: 5px;
+    font-size: 1.33333333em;
+    line-height: .75em;
+}
+
+@media screen and (max-width: 767px){
+    div.datatables-group, .page-title {
+        text-align: center;
+    }
+}
+
+/*kml import*/
+.kml-import-header {
+        padding-bottom:8px
+    }
+
+div.kml-import-group .kml-import-item {
+        margin-bottom: 5px;
+        min-width: 200px;
+        height: 35px;
+    }
+
+@media screen and (max-width: 767px){
+    div.kml-import-group {
+        text-align: center;
+    }
+}
+
+/* modal example */
+.modal-open {
+    margin-right: 0px !important;
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.modal-checkbox {
+    width: 20px; 
+    height: 20px
+}
+
+/* nav-tabs */
+.nav-tabs .active{
+    border: 0px;
+    border-bottom: 3px solid #32c5d2;
+}
+
+.nav-tabs > li > a {
+  padding: 2px 7px 2px 7px;
+  color: #32c5d2;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  border: 0px;
+}
+
+/*widgets*/
+.widget {
+    margin-bottom: 15px;
+}
+
+.bordered {
+    border: 1px solid #e7ecf1!important;
+    border-radius: 4px;
+}
+
+.widget .widget-content {
+    padding:15px;
+}
+
+.widget .widget-title, .widget .widget-body{
+}
+
+.widget .widget-title {
+    min-height: 36px;
+    margin-bottom:15px;
+    border-bottom: 1px solid #eef1f5;
+    overflow: hidden;
+    text-transform: uppercase!important;
+}
+
+.widget-title h4 {
+    padding: 0;
+    letter-spacing: -1px;
+    display: block;
+    color: #666;
+    margin: 0 0 15px;
+    font-weight: lighter;
+}
+
+.widget .widget-body {
+}
+
+.widget-caption {
+    height: 100%;
+}
+
+.widget-actions {
+    height: 100%;
+}
+
+.widget-row{
+    /*margin-bottom: 15px;*/
+}
+
+.info-block
+{
+    line-height: 25px;
+    padding: 20px;
+    margin-bottom:10px;
+    text-align: right;
+    border-radius: 4px;
+}
+
+.info-block-number
+{
+    font-size:30px;
+    margin:5px;
+    color: whitesmoke;
+    text-align: right;
+}
+
+.info-block-text
+{
+    font-size:16px;
+    margin:5px;
+    color: whitesmoke;
+    text-align: right;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.info-block-blue { background-color: #3598dc; }
+.info-block-red { background-color: #e7505a; }
+.info-block-green { background-color: #1bbc9b; }
+.info-block-orange { background-color: #f2894b }
+
+.full-view .nav{
+    margin-bottom: 15px;
+}
+
+/* growl notifications */
+#growls {
+    max-width: 100%;
+}
+
+#growls.default {
+    top: 50px !important;
+    right: -5px !important;
+}
+
+.growl.growl-xlarge {
+    width: 400px;
+    padding: 15px;
+    margin: 15px; }

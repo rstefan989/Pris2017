@@ -1,0 +1,73 @@
+﻿.widget table.table-bordered.dataTable tbody td{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.widget table.table-bordered.dataTable thead th{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.widget table.table-bordered.dataTable thead th, .widget table.table-bordered.dataTable tbody td{
+    font-size: 12px;
+}
+
+table thead{
+    background-color: #32c5d2;
+    color: white;
+}
+
+.dataTables_paginate .pagination > .active > a{
+    background-color: #f9f9f9;
+    border-color: #d3d3d3;
+    color: #d3d3d3;
+    font-weight: bold;
+}
+
+.dataTables_paginate .pagination > .disabled > a{
+    color: #ededed;
+}
+
+.pagination > li > a{
+    padding: 1px 7px;
+}
+
+.dataTables_paginate a{
+    color: #d3d3d3;
+}
+
+#onlineAgentsTable_wrapper table thead{
+    background-color: #3598dc;
+}
+
+/*#onlineAgentsTable_wrapper .pagination > .active > a{
+    background-color: #3598dc;
+    border-color: #3598dc;
+    color: white;
+}
+
+#onlineAgentsTable_wrapper .dataTables_paginate a{
+    color: #3598dc;
+}*/
+
+#localDbCasesTable_wrapper table thead{
+    background-color: #e7505a;
+}
+
+/*#localDbCasesTable_wrapper .pagination > .active > a{
+    background-color: #e7505a;
+    border-color: #e7505a;
+    color: white;
+}
+
+#localDbCasesTable_wrapper .dataTables_paginate a{
+    color: #e7505a;
+}*/
+
+table.table-bordered.dataTable tbody .numericCol {
+    text-align: right !important;
+}
+
+table.table-bordered.dataTable tbody .nonNumericCol {
+    text-align: left !important;
+}

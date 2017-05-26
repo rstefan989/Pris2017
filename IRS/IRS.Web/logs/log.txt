@@ -1,0 +1,4 @@
+DEBUG 2016-10-17 12:38:40,906 14584ms UserController         Edit               - Here is a debug log.
+INFO  2016-10-17 12:38:41,573 15251ms UserController         Edit               - ... and an Info log.
+WARN  2016-10-17 12:38:44,591 18268ms UserController         Edit               - ... and a warning.
+ERROR 2016-10-17 12:38:45,183 18860ms UserController         Edit               - ... and an error.

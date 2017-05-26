@@ -1,0 +1,17 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": false,
+    "target": "es5",
+    "outFile": "scripts/typescript.js"
+  },
+  "files": [
+    "scripts/typescript/notifications.ts",
+    "scripts/typescript/irsCase.ts",
+    "scripts/typescript/irsCaseManager.ts"
+  ]
+
+}

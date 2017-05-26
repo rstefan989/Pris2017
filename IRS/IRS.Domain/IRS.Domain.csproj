@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B8B4A492-B14F-4082-8964-F87B9ED21580}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IRS.Domain</RootNamespace>
+    <AssemblyName>IRS.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Deploy-Dev|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Deploy-Dev\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Deploy-ARS|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Deploy-ARS\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release-YUSpin|AnyCPU'">
+    <OutputPath>bin\Release-YUSpin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountIsLockedException.cs" />
+    <Compile Include="AccountNotExistsException.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Entities\Comment.cs" />
+    <Compile Include="Entities\AuctionItemCategory.cs" />
+    <Compile Include="Entities\AuctionItem.cs" />
+    <Compile Include="Entities\Auction.cs" />
+    <Compile Include="Entities\EntityBase.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Entities\ConcurrentEntityBase.cs" />
+    <Compile Include="Entities\UserRole.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Interfaces\Configuration\IAuthUser.cs" />
+    <Compile Include="Interfaces\Configuration\IWebConfig.cs" />
+    <Compile Include="Interfaces\Configuration\IConfigProvider.cs" />
+    <Compile Include="Interfaces\Notification\INotification.cs" />
+    <Compile Include="Interfaces\Notification\INotificationCollection.cs" />
+    <Compile Include="Interfaces\Repositories\IAuctionItemCategoryRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IAuctionItemRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IAuctionRepository.cs" />
+    <Compile Include="Interfaces\Repositories\ICommentRepository.cs" />
+    <Compile Include="Interfaces\Repositories\IUserGroupRepository.cs" />
+    <Compile Include="Interfaces\Repositories\RepositoryBase.cs" />
+    <Compile Include="Interfaces\Repositories\IUserRepository.cs" />
+    <Compile Include="Interfaces\Services\IAuctionItemCategoryService.cs" />
+    <Compile Include="Interfaces\Services\IAuctionItemService.cs" />
+    <Compile Include="Interfaces\Services\IAuctionService.cs" />
+    <Compile Include="Interfaces\Services\IAuthenticationService.cs" />
+    <Compile Include="Interfaces\Services\ICommentService.cs" />
+    <Compile Include="Interfaces\Services\IServiceBase.cs" />
+    <Compile Include="Interfaces\Services\IUserGroupService.cs" />
+    <Compile Include="Interfaces\Services\IUserService.cs" />
+    <Compile Include="Interfaces\Utilities\IAutoMapperTool.cs" />
+    <Compile Include="Interfaces\Utilities\IIoCResolver.cs" />
+    <Compile Include="Interfaces\Utilities\IUnitOfWork.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\YuSpin.Fw\YuSpin.Fw.csproj">
+      <Project>{2e521f9e-66e2-447a-ac65-f9a1a1f1b1e3}</Project>
+      <Name>YuSpin.Fw</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

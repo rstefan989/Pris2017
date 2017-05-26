@@ -1,0 +1,13 @@
+﻿@model IRS.Web.ViewModels.Common.ViewModelBase
+
+@{
+    ViewBag.Title = Labels.ForbiddenPageTitle;
+}
+
+@Html.PageTitle(Labels.ForbiddenPageTitle)
+<div class="container">
+    <h2>@Labels.AccessDenied.ToUpper()</h2>
+    <div class="body_div">
+        <span>@Labels.InsufficientPermissions</span>
+    </div>
+</div>

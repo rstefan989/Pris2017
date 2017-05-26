@@ -1,0 +1,38 @@
+﻿@model IRS.Web.ViewModels.User.UserProfileViewModel
+@using YuSpin.Fw.Web
+
+@{
+    ViewBag.Title = Labels.UserProfile;
+}
+<div class="container">
+    <div class="row">
+        @using (Html.BeginForm("Edit", "User", FormMethod.Post, new { @class = "form-signin" }))
+        {
+            <div class="col-sm-6 col-sm-offset-3">
+                @Html.PageTitle(Labels.UserProfile)
+                <br />
+                <div class="form-horizontal">
+                    @Html.HiddenFor(model => model.Id)
+                    @Html.TextBoxGroupFor(model => model.FullName)
+                    @Html.TextBoxGroupFor(model => model.Email)
+
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">
+                        @Labels.Save
+                    </button>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/editprofilejs")
+    <script type="text/javascript">
+        @{
+            var data = JsonHelper.Convert(Model);
+                  @Html.Raw($"editProfile.init('{data}');");
+        }
+    </script>
+}
+
+
