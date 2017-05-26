@@ -233,6 +233,8 @@
     <Compile Include="Code\Utilities\Mapper.cs" />
     <Compile Include="Code\View\WebViewPage.cs" />
     <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="ViewModels\Auction\AuctionItemViewModel.cs" />
+    <Compile Include="ViewModels\Auction\AuctionViewModel.cs" />
     <Compile Include="ViewModels\Common\NewPasswordPartialViewModel.cs" />
     <Compile Include="Areas\Admin\Models\ViewModels\Users\UsersOverviewViewModel.cs" />
     <Compile Include="Code\Attributes\Validation\EmailFormatLocalized.cs" />
@@ -273,6 +275,10 @@
   <ItemGroup>
     <Content Include="Content\additional-window.css" />
     <Content Include="Content\dashboard.css" />
+    <Content Include="Content\Images\logo.jpg" />
+    <Content Include="Scripts\pages\change-password.js" />
+    <Content Include="Scripts\pages\edit-profile.js" />
+    <Content Include="Scripts\pages\home.js" />
     <Content Include="Scripts\pages\layout.js" />
     <Content Include="Scripts\mvcfoolproof\mvcfoolproof.unobtrusive.js" />
     <Content Include="Scripts\mvcfoolproof\mvcfoolproof.unobtrusive.min.js" />
@@ -296,7 +302,6 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\Admin\Views\web.config" />
-    <Content Include="Scripts\pages\teamlead\country-lps.js" />
     <None Include=".bin\node.cmd" />
     <Content Include="package.json" />
     <Content Include="Areas\Admin\Views\Users\UsersOverview.cshtml" />
@@ -359,6 +364,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Compile Include="ViewModels\Auction\AuctionListViewModel.cs" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

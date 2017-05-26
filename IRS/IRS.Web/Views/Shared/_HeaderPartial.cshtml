@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a href="@Url.Action("Index", "Home", new { area = "" })" class="links">
-                <img alt="Home Page" src="~/Content/Images/ARS/Common/ars-logo.gif" />
+                <img alt="Home Page" src="~/Content/Images/logo.jpg" height="50px"/>
             </a>
         </div>
         @if (Request.IsAuthenticated)
@@ -17,25 +17,30 @@
             <div class="collapse navbar-collapse">
                 
                 <ul class="nav navbar-nav">
-                    @if (IsAdmin)
+                    @*@if (IsAdmin)
                     {
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                 @Labels.Admin<span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li>@Html.ActionLink("HOME", "Index", "Home", new { area = "Admin" }, null)</li>
+                                <li>@Html.ActionLink("HOME", "Index", "Home")</li>
                             </ul>
                         </li>
                     }
                     else
                     {
-                        <li>@Html.ActionLink("HOME", "Index", "Home", null, null)</li>
-                    }
+                        <li>@Html.ActionLink("HOME", "Index", "Home")</li>
+                    }*@
                 </ul>
                 
                 @Html.Partial("_LoginPartial")
             </div>
+        }
+        else { 
+            <ul class="nav navbar-nav navbar-right">
+                <li>@Html.ActionLink("Login", "login", "Account")</li>
+            </ul>
         }
     </div>
 </div>

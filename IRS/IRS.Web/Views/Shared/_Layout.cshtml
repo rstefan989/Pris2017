@@ -13,6 +13,7 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/jquery")
+    @Styles.Render("~/Content/masterlayout")
 </head>
 <body>
     @Html.Partial("_HeaderPartial", Model)
@@ -31,6 +32,8 @@
     
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/bundles/knockout")
+    @Scripts.Render("~/bundles/layout")
+    @Scripts.Render("~/bundles/masterlayout")
     @RenderSection("scripts", required: false)
     <script type="text/javascript">
 

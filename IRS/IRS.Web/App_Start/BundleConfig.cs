@@ -44,15 +44,17 @@ namespace IRS.Web
                       "~/Scripts/typescript.js",
                       "~/Scripts/pages/layout.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/homejs").Include(
+                "~/Scripts/pages/home.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/changepasswordjs").Include(
-                      "~/Scripts/pages/operator/change-password.js"));
+                      "~/Scripts/pages/change-password.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/editprofilejs").Include(
-                      "~/Scripts/pages/operator/edit-profile.js"));
+                      "~/Scripts/pages/edit-profile.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/usersoverviewjs").Include(
-                      "~/Scripts/pages/teamlead/users-overview.js"));
+                      "~/Scripts/pages/users-overview.js"));
             
             BundleTable.EnableOptimizations = false;
         }
