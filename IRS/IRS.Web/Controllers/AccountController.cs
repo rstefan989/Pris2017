@@ -6,10 +6,12 @@ using System.Web;
 using System.Web.Mvc;
 using YuSpin.Fw.Cryptography.Tokens;
 using System.Threading.Tasks;
+using AutoMapper;
 using IRS.Domain.Entities;
 using IRS.Web.Code.Utilities;
 using IRS.Web.ViewModels.Account;
 using YuSpin.Fw.Cryptography;
+using UserRole = IRS.Domain.UserRole;
 
 namespace IRS.Web.Controllers
 {
@@ -72,6 +74,41 @@ namespace IRS.Web.Controllers
 
             return View(model);
         }
+
+        [HttpGet]
+        [AllowAnonymous, OutputCache(NoStore = true, Duration = 0)]
+        public ActionResult Register()
+        {
+            if (Request.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            var model = new RegisterViewModel();
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [AllowAnonymous, OutputCache(NoStore = true, Duration = 0)]
+        public ActionResult Register(RegisterViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = Mapper.Map<User>(model);
+                user.RoleId = (int)UserRole.User;
+                var salt = CryptoService.GenerateSalt();
+                user.PasswordSalt = salt;
+                user.Password = CryptoService.GenerateSaltedHash(model.NewPassword, salt);
+                user.FullName = user.FirstName + " " + user.LastName;
+                _userService.AddOrUpdate(user);
+            }
+            else
+                model.Notifications.AddErrors(ModelState);
+
+
+            return View(model);
+        }
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]

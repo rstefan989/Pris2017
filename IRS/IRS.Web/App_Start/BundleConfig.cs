@@ -47,6 +47,15 @@ namespace IRS.Web
             bundles.Add(new ScriptBundle("~/bundles/homejs").Include(
                 "~/Scripts/pages/home.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/allItemsjs").Include(
+                "~/Scripts/pages/allItems.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/myItemsjs").Include(
+                "~/Scripts/pages/myItems.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/top5js").Include(
+                "~/Scripts/pages/top5.js"));
+
             bundles.Add(new ScriptBundle("~/bundles/changepasswordjs").Include(
                       "~/Scripts/pages/change-password.js"));
 

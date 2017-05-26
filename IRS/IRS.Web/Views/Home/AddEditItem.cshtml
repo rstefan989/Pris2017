@@ -1,0 +1,52 @@
+﻿@model IRS.Web.ViewModels.Auction.AuctionItemViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "AddEditItem";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>BidAddEditItemtitle</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Content/login.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div class="text-center login-title">@Html.PageTitle("Add/Edit Item")</div>
+                <br />
+                @using (Html.BeginForm("AddEditItem", "Home", FormMethod.Post, new { @class = "form-signin" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        @Html.TextBoxFor(m => m.Name, new { @class = "form-control", @placeholder = "Name", autofocus = "autofocus" })
+                    </div>
+                    <div class="form-group">
+                        @Html.TextBoxFor(m => m.Description, new { @class = "form-control", @placeholder = "Description", autofocus = "autofocus" })
+                    </div>
+                    <div class="form-group">
+                        @Html.TextBoxFor(m => m.Condition, new { @class = "form-control", @placeholder = "Condition",  autofocus = "autofocus" })
+                    </div>
+                    <div class="form-group">
+                        @Html.TextBoxFor(m => m.StartingPrice, new { @class = "form-control", @placeholder = "StartingPrice", type = "decimal", autofocus = "autofocus" })
+                    </div>
+                    <div class="form-group">
+                        @Html.DropDownListFor(m => m.AuctionItemCategoryId, Model.Categories, new { @class = "form-control", autofocus = "autofocus" })
+                    </div>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">
+                        Add/Edit
+                    </button>
+                    @Html.HiddenFor(m => m.Id)
+                    <span class="clearfix"></span>
+                }
+            </div>
+        </div>
+    </div>
+</body>
+</html>

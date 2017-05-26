@@ -233,7 +233,9 @@
     <Compile Include="Code\Utilities\Mapper.cs" />
     <Compile Include="Code\View\WebViewPage.cs" />
     <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="ViewModels\Account\RegisterViewModel.cs" />
     <Compile Include="ViewModels\Auction\AuctionItemViewModel.cs" />
+    <Compile Include="ViewModels\Auction\CommentViewModel.cs" />
     <Compile Include="ViewModels\Auction\AuctionViewModel.cs" />
     <Compile Include="ViewModels\Common\NewPasswordPartialViewModel.cs" />
     <Compile Include="Areas\Admin\Models\ViewModels\Users\UsersOverviewViewModel.cs" />
@@ -269,15 +271,20 @@
     <Compile Include="Areas\Admin\Models\ViewModels\Common\UserViewModel.cs" />
     <Compile Include="ViewModels\Common\ChangePasswordViewModel.cs" />
     <Compile Include="ViewModels\Account\LoginViewModel.cs" />
+    <Compile Include="ViewModels\User\UserListViewModel.cs" />
     <Compile Include="ViewModels\User\UserProfileViewModel.cs" />
     <Compile Include="ViewModels\Common\ViewModelBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\additional-window.css" />
     <Content Include="Content\dashboard.css" />
+    <Content Include="Content\Images\background.jpg" />
     <Content Include="Content\Images\logo.jpg" />
     <Content Include="Scripts\pages\change-password.js" />
     <Content Include="Scripts\pages\edit-profile.js" />
+    <Content Include="Scripts\pages\myItems.js" />
+    <Content Include="Scripts\pages\top5.js" />
+    <Content Include="Scripts\pages\allItems.js" />
     <Content Include="Scripts\pages\home.js" />
     <Content Include="Scripts\pages\layout.js" />
     <Content Include="Scripts\mvcfoolproof\mvcfoolproof.unobtrusive.js" />
@@ -393,6 +400,13 @@
     <Content Include="Views\User\ChangePassword.cshtml" />
     <Content Include="Views\Error\Forbidden.cshtml" />
     <Content Include="Views\Error\Error.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Home\Top5.cshtml" />
+    <Content Include="Views\Home\MyItems.cshtml" />
+    <Content Include="Views\Home\AllItems.cshtml" />
+    <Content Include="Views\Home\Bid.cshtml" />
+    <Content Include="Views\Home\Rate.cshtml" />
+    <Content Include="Views\Home\AddEditItem.cshtml" />
     <None Include="Web.Deploy-ARS.config">
       <DependentUpon>Web.config</DependentUpon>
       <SubType>Designer</SubType>

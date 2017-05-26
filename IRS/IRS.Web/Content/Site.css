@@ -4,6 +4,20 @@
     color:#666;
     font-weight: lighter;
 }
+#background-img {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(../Content/Images/background.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100%;
+      opacity: 0.1;
+      filter:alpha(opacity=80);
+    z-index: -1000;
+  }
 
 .layout-container{
     max-width:90%;

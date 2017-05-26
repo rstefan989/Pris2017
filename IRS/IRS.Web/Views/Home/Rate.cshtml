@@ -1,0 +1,43 @@
+﻿@model IRS.Web.ViewModels.Auction.CommentViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Rate";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Rate</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Content/login.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+            <div class="text-center login-title">@Html.PageTitle("Rate")</div>
+            <br />
+            @using (Html.BeginForm("Rate", "Home", FormMethod.Post, new { @class = "form-signin" }))
+            {
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.Description, new { @class = "form-control", @placeholder = "Comment", autofocus = "autofocus" })
+                </div>
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.UserRating, new { @class = "form-control", @placeholder = "Rating", min = "1", max = "5", type ="number", autofocus = "autofocus" })
+                </div>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">
+                    Rate
+                </button>
+                @Html.HiddenFor(m => m.UserId)
+                <span class="clearfix"></span>
+            }
+        </div>
+    </div>
+</div>
+</body>
+</html>

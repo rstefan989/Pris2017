@@ -1,0 +1,40 @@
+﻿@model IRS.Web.ViewModels.Auction.AuctionViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Bid";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Bid</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link href="~/Content/login.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div class="text-center login-title">@Html.PageTitle("Bid")</div>
+                <br />
+                @using (Html.BeginForm("Bid", "Home", FormMethod.Post, new { @class = "form-signin" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        @Html.TextBoxFor(m => m.Price, new { @class = "form-control", @placeholder = "Price", type="number", autofocus = "autofocus" })
+                    </div>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">
+                        Bid
+                    </button>
+                    @Html.HiddenFor(m => m.AuctionItemId)
+                    <span class="clearfix"></span>
+                }
+            </div>
+        </div>
+    </div>
+</body>
+</html>

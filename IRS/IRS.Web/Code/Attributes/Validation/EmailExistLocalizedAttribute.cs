@@ -18,7 +18,7 @@ namespace IRS.Web.Code.Attributes.Validation
 
             var _userService = DependencyResolver.Current.GetService<IUserService>();
 
-            return _userService.GetByEmail((string)value) != null;
+            return _userService.GetByEmail((string)value) == null;
         }
     }
 }
